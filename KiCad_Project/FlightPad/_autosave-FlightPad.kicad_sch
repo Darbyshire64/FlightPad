@@ -1834,7 +1834,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 177.8) (xy 33.02 177.8)
+			(xy 30.48 177.8) (xy 33.02 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2426,9 +2426,9 @@
 			)
 		)
 	)
-	(global_label "ROW-2"
+	(global_label "ROW-1"
 		(shape input)
-		(at 31.75 177.8 180)
+		(at 30.48 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2438,7 +2438,7 @@
 		)
 		(uuid "6d6a8f14-76cb-43a5-a8aa-2cf3dea24ee2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 21.931 177.8 0)
+			(at 20.661 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2602,7 @@
 			)
 		)
 	)
-	(global_label "ROW-1"
+	(global_label "ROW-2"
 		(shape input)
 		(at 31.75 166.37 180)
 		(fields_autoplaced yes)
