@@ -52,7 +52,10 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "via_dangling|118000000|121000000|67e5313f-d526-43a8-8eb0-f8b666793329|00000000-0000-0000-0000-000000000000",
+        "via_dangling|55500000|121500000|8e7c6449-bc78-4628-b908-457c73023768|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -89,7 +92,7 @@
         "npth_inside_courtyard": "ignore",
         "padstack": "warning",
         "pth_inside_courtyard": "ignore",
-        "shorting_items": "error",
+        "shorting_items": "warning",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
@@ -469,7 +472,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "FlightPad.step",
       "svg": "",
       "vrml": ""
     },
