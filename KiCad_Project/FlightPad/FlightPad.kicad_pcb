@@ -1901,7 +1901,7 @@
 			)
 		)
 		(property "Value" "Conn_01x04_Pin"
-			(at 18.5 14 360)
+			(at 19.385 8.885 0)
 			(layer "F.Fab")
 			(uuid "883f8c0f-e8ee-4fc3-83e8-af013fdef526")
 			(effects
@@ -1912,7 +1912,7 @@
 			)
 		)
 		(property "Footprint" "KiCad-SSD1306-0.91-OLED-4pin-128x32:SSD1306-0.91-OLED-4pin-128x32"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b3560a09-4336-448d-874d-109e04a23512")
@@ -1924,7 +1924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a6cc55cf-9edc-4dbf-98ec-9ef600ef0e6e")
@@ -1936,7 +1936,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "81762602-0533-48e6-9721-2ee484a1fa17")
@@ -2097,7 +2097,7 @@
 			)
 		)
 		(fp_text user "OLED Panel"
-			(at 18.885 5.885 360)
+			(at 18.885 5.885 0)
 			(layer "F.SilkS")
 			(uuid "f885b022-ef75-46ad-bcb9-3efc52726d99")
 			(effects
@@ -7482,8 +7482,8 @@
 		(uuid "e02e040c-f68b-48cb-b20d-7dad00b692e3")
 	)
 	(gr_line
-		(start 100.5 55.5)
-		(end 115.5 55.5)
+		(start 97 55.5)
+		(end 112 55.5)
 		(stroke
 			(width 0.2)
 			(type default)
@@ -7547,6 +7547,28 @@
 		(net 3)
 		(uuid "fcc54a7d-f375-45bb-804d-fd1e56dc736c")
 	)
+	(gr_rect
+		(start 56.5 59)
+		(end 116 119)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "837e158e-fee7-4120-ad2e-bc9606a81857")
+	)
+	(gr_rect
+		(start 70.5 120)
+		(end 105 124)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "c5f0458e-dd0a-48a0-91fd-deffa5e0ebfe")
+	)
 	(gr_line
 		(start 112.5 32)
 		(end 112.5 35.5)
@@ -7588,6 +7610,17 @@
 		(layer "Edge.Cuts")
 		(uuid "3a4cb19e-f77e-470d-8c0d-24fef49269b2")
 	)
+	(gr_circle
+		(center 118 122)
+		(end 119.5 121)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "3b9b3165-99b3-47f9-ac4f-00ac29abe084")
+	)
 	(gr_line
 		(start 117 32)
 		(end 112.5 32)
@@ -7607,6 +7640,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "4ff17d80-2328-41f2-bb11-9fe2eb523053")
+	)
+	(gr_circle
+		(center 64.5 38.5)
+		(end 66.5 38)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "59f6c3a6-2e88-4dc1-a9a6-84f027d3b0f8")
 	)
 	(gr_line
 		(start 103.5 35.5)
@@ -7638,6 +7682,17 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "ad6874c7-ac81-4018-89ca-5ea46f58259e")
+	)
+	(gr_circle
+		(center 56.5 121.5)
+		(end 58 120.5)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "b18c3db7-7d92-4c98-9e91-c34e25d5b78e")
 	)
 	(gr_arc
 		(start 117 32)
@@ -7681,21 +7736,41 @@
 		(layer "Edge.Cuts")
 		(uuid "d5cbbce2-c1d8-4182-9c8c-9b3add907af0")
 	)
-	(via
-		(at 118 121)
-		(size 4)
-		(drill 3.4)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "67e5313f-d526-43a8-8eb0-f8b666793329")
+	(gr_text "Key Matrix"
+		(at 81 58.5 0)
+		(layer "F.SilkS")
+		(uuid "0e3e06f6-d51c-41d4-8b67-ae828e44c340")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
-	(via
-		(at 55.5 121.5)
-		(size 4)
-		(drill 3.4)
-		(layers "F.Cu" "B.Cu")
-		(net 0)
-		(uuid "8e7c6449-bc78-4628-b908-457c73023768")
+	(gr_text "Third Screw Hole for Open Top Design"
+		(at 68 38.5 0)
+		(layer "F.SilkS")
+		(uuid "2841d040-f06f-469b-82db-c77aeb3baf26")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Designed By Lawri Darbyshire in the UK"
+		(at 72 122.5 0)
+		(layer "F.SilkS")
+		(uuid "56a4b8e0-b953-4db7-a29c-c2ed4551dd4d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 62.73 50.42)
