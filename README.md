@@ -34,7 +34,7 @@ Available Setings Below:
 |Toggle OLED    | On  Off    | Toggles OLED.   |
 |Toggle NP      | On  Off    | Toggles NP      |
 |Default Profile| 1 2 3      | Sets the Inital Profile|
--------------------------------------------
+
 
 ## Live Switch Profile 
 
