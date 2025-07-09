@@ -28,11 +28,12 @@ Hold down F(BLUE) key for 3 Seconds to enter customization mode. use 5 and 8 to 
 
 Available Setings Below:
 
-|
-|Setting       | Options    | Desc        |
-|--------------|------------|-------------|
-|Toggle OLED   | On  Off    | Toggles OLED|
-|Toggle NP     | On  Off    | Toggles NP  |
+
+|Setting        | Options    | Desc        |
+|---------------|------------|-------------|
+|Toggle OLED    | On  Off    | Toggles OLED.   |
+|Toggle NP      | On  Off    | Toggles NP      |
+|Default Profile| 1 2 3      | Sets the Inital Profile|
 -------------------------------------------
 
 ## Live Switch Profile 
