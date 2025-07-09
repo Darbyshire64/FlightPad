@@ -32,7 +32,6 @@ Available Setings Below:
 |Setting       | Options    | Desc        |
 |--------------|------------|-------------|
 |Toggle OLED   | On  Off    | Toggles OLED|
-|--------------|------------|-------------|
 |Toggle NP     | On  Off    | Toggles NP  |
 -------------------------------------------
 
