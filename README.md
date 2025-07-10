@@ -40,4 +40,19 @@ Available Setings Below:
 
 Hold F Key and Key 7 for 3 seconds. OLED and Neo Pixle Will light regardless of settings. and use keys 4-6 to select profile and use Key 7 to exit.
 
+# Photos
+## Case
+
+<img width=600 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/RENDER1.png">
+<img width=600 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/RENDER2.PNG">
+<img width=600 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/RENDER3.PNG">
+<img width=600 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/RENDER4.png">
+
+# PCB 
+
+<img width=500 height=400 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/3D-PCB.png">
+<img width=500 height=400 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/PCB.png">
+<img width=500 height=400 src="https://github.com/Darbyshire64/MultiPad/blob/4c1d576a043a0029328d6c29cf909fc135e0a3df/FinalPics/SCHEMATIC.png">
+
+
 
